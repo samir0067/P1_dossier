@@ -1,0 +1,26 @@
+:root {
+    --container: calc(100% - 50px);
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Inconsolata', sans-serif;
+    background: rgba(238, 240, 245, 1);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-family: 'Lobster', cursive;
+}

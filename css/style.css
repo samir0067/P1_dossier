@@ -1,0 +1,193 @@
+@import 'base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* --- Header --- */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0.4em;
+    z-index: 3;
+    background: rgb(100, 180, 255);
+    border-bottom: 5px solid #000000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1em;
+}
+
+.nav > a {
+    display: inline-block;
+    padding: 0.6em 0.3em 0.6em 0.3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+/* --- Profil --- / --- Projets --- */
+#profil, #projets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding-top: 4.5em;
+    padding-left: calc(50% - var(--container) / 2);
+    padding-right: calc(50% - var(--container) / 2);
+    border-bottom: black 0.5px solid;
+}
+
+/* --- Profil --- */
+#profil {
+    background: linear-gradient(rgb(100, 180, 255), rgb(238, 240, 245));
+    overflow: hidden;
+    height: 600px;
+}
+
+.titleProfil {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    z-index: 2;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*border: black 0.5px solid;*/
+}
+
+.imgProfil {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    border-right: black 0.5px solid;
+}
+
+.imgProfil > img {
+    width: 100%;
+}
+
+
+/* --- Projets --- */
+.imgProjet {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgProjet > img {
+    width: 21em;
+    padding-top: 1.5em;
+}
+
+.redukard, .alsacenature {
+    -moz-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    transform: rotate(11deg);
+}
+
+.redukard:hover, .alsacenature:hover {
+    -moz-transform: scale(1.2) rotate(-11deg);
+    -webkit-transform: scale(1.2) rotate(-11deg);
+    -o-transform: scale(1.2) rotate(-11deg);
+    -ms-transform: scale(1.2) rotate(-11deg);
+    transform: scale(1.2) rotate(-11deg);
+}
+
+/* --- Contacts --- */
+#contacts {
+    padding-left: calc(50% - var(--container) / 2);
+    padding-right: calc(50% - var(--container) / 2);
+    background: linear-gradient(to bottom, rgba(238, 240, 245, 1), rgb(12, 27, 53));
+    padding-bottom: 10em;
+}
+
+#contacts > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+#contacts > ul > li > a > img {
+    width: 4em;
+    padding-right: 1.5em;
+}
+
+
+/* --- Media query --- */
+@media only screen and (min-width: 1074px) {
+    :root {
+        --container: 1024px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .imgProfil {
+        overflow: hidden;
+    }
+
+    .imgProfil > img {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #projets {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4em;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .imgProfil > img {
+        filter: blur(0.5em) opacity(48%);
+    }
+    .titleProfil {
+        text-shadow: 1px 1px 21px rgba(255, 255, 255, 0.8);
+    }
+    .titleProfil > h1, .titleProfil > h3, .titleProfil > p {
+        text-align: center;
+    }
+    .titleProfil > ul, .titleProfil > ul > ul{
+        list-style: none;
+
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .imgProfil {
+        border-right: none;
+    }
+    .imgProfil > img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .imgProjet > img {
+        width: 15em;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    #contacts > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 380px) {
+    #contacts {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 380px) {
+    #contacts {
+        text-align: center;
+        text-shadow: 1px 1px 21px rgba(0, 0, 0, 0.7);
+    }
+}
