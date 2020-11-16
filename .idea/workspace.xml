@@ -15,7 +15,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jvww5WIqSQdR5AcktLPq716Stg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,7 +46,7 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../P1_dossier" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -57,11 +61,35 @@
       <updated>1604698113157</updated>
       <workItem from="1604698115780" duration="27595000" />
       <workItem from="1604829300579" duration="20744000" />
+      <workItem from="1605564903493" duration="492000" />
     </task>
+    <task id="LOCAL-00001" summary="wip">
+      <created>1605565229650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605565229650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604702083899">
@@ -77,6 +105,10 @@
       <screen x="-3840" y="23" width="1920" height="993" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057/-3840.23.1920.993@-3840.23.1920.993" timestamp="1604852974858" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1605565231614">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1605565231614" />
     <state x="667" y="274" width="586" height="490" key="find.popup" timestamp="1604779750432">
       <screen x="0" y="23" width="1920" height="993" />
     </state>
